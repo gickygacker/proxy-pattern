@@ -1,2 +1,0 @@
-/usr/bin/ar qc libproxy_lib.a CMakeFiles/proxy_lib.dir/subject.cpp.o
-/usr/bin/ranlib libproxy_lib.a

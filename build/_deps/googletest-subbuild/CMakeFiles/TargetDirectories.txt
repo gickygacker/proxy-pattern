@@ -1,3 +1,0 @@
-/home/goy/github/RK2/RK2-main/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/goy/github/RK2/RK2-main/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/goy/github/RK2/RK2-main/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
