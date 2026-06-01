@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/proxy_test.dir/link.d CMakeFiles/proxy_test.dir/test.cpp.o -o proxy_test  libproxy_lib.a lib/libgtest_main.a lib/libgtest.a

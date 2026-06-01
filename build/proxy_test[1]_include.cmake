@@ -1,0 +1,5 @@
+if(EXISTS "/home/goy/github/RK2/RK2-main/build/proxy_test[1]_tests.cmake")
+  include("/home/goy/github/RK2/RK2-main/build/proxy_test[1]_tests.cmake")
+else()
+  add_test(proxy_test_NOT_BUILT proxy_test_NOT_BUILT)
+endif()

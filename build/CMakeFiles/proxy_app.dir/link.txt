@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/proxy_app.dir/link.d CMakeFiles/proxy_app.dir/main.cpp.o -o proxy_app  libproxy_lib.a
