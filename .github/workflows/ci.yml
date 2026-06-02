@@ -31,8 +31,8 @@ jobs:
       - name: Upload DEB package
         uses: actions/upload-artifact@v4
         with:
-          name: proxy-pattern-deb
-          path: "**/*.deb"
+          name: deb-package
+          path: build/*.deb
   release:
     needs: build
     runs-on: ubuntu-latest
