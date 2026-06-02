@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: rm -rf build CMakeCache.txt CMakeFiles
-      - run: sudo apt update && sudo apt install -y build-essential cmake
+      - run: sudo apt update && sudo apt install -y build-essential cmake dpkg-dev fakeroot
       - run: cmake -B build
       - run: cmake --build build
       - run: ctest --test-dir build --output-on-failure
