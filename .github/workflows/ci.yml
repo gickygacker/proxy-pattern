@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: proxy-pattern-deb
-          path: build/*.deb
+          path: **/*.deb
   release:
     needs: build
     runs-on: ubuntu-latest
