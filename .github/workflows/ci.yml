@@ -23,6 +23,7 @@ jobs:
           name: proxy-deb
           path: build/**/*.deb
           retention-days: 1
+          if-no-files-found: error
 
   release:
     needs: build
