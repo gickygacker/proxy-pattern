@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: deb-package
-          path: build/*.deb
+          path: ./release-files
   release:
     needs: build
     runs-on: ubuntu-latest
