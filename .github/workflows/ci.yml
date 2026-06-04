@@ -18,6 +18,10 @@ jobs:
       - run: cmake --build build
       - run: ctest --test-dir build --output-on-failure
       - run: cmake --build build --target package
+      - name: "Отладка"
+        run: |
+          ls -la
+          find . -type f -name "*.deb"
       - uses: actions/upload-artifact@v4
         with:
           name: proxy-deb
