@@ -24,9 +24,10 @@ gtest_discover_tests(proxy_test)
 
 install(TARGETS proxy_app DESTINATION bin)
 
-include(CPack)
+
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_NAME "proxy-pattern")
 set(CPACK_PACKAGE_VERSION "1.0.0")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "GickyGacker <govnillo.muchacho911@gmail.com")
 set(CPACK_DEBIAN_FILE_NAME DEB_DEFAULT)
+include(CPack)
